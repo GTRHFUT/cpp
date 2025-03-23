@@ -13,6 +13,7 @@ int main(){
     cout<<"---------------------"<<endl;
     l.delete_element(1);
     l.print();
+    cout << l.length() << endl;
     system("pause");
     return 0;
 }
