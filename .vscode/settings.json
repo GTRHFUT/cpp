@@ -4,6 +4,12 @@
         "ostream": "cpp",
         "limits": "cpp",
         "new": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "*.tcc": "cpp",
+        "compare": "cpp",
+        "format": "cpp",
+        "optional": "cpp",
+        "type_traits": "cpp",
+        "variant": "cpp"
     }
 }
