@@ -1,5 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.debugShortcut": true,
+    "C_Cpp.intelliSenseEngine": "default",
     "files.associations": {
         "ostream": "cpp",
         "limits": "cpp",
