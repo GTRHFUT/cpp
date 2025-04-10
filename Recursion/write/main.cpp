@@ -11,6 +11,7 @@
 #include "arrange.h"
 #include "The_Eight_Queens_Problem.h"
 #include "Rabbit_breeding.h"
+#include "Ack.h"
 using namespace std;
 int main()
 {
@@ -65,6 +66,9 @@ int main()
     {
         cout << "第" << i << "月: " << fibonacci(2 * 12 + i) << endl;
     }
+    cout << "-----------------------------------------------------------------------------------------" << endl;
+    cout << "Ack(5) = " << Ack(2, 3) << endl;
+    cout << "Ack(5) = " << ack(2, 3) << endl;
     system("pause");
     return 0;
 }

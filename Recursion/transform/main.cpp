@@ -1,52 +1,32 @@
-// 将下面递归程序转换为等价的非递归程序。
-// void P(int n)
-// {
-//     if (n > 0)
-//     {
-//         cout << n;
-//         P(n - 1);
-//         P(n - 1);
-//     }
-// }
-
 #include <iostream>
-#include <stack>
+#include "hm1.cc"
+#include "hm2.cc"
+#include "hm3.cc"
+#include "hm4.cc"
 using namespace std;
-void p(int n)
-{
-    if (n > 0)
-    {
-        cout << n << " ";
-        p(n - 1);
-        p(n - 1);
-    }
-}
-
-void pp(int n)
-{
-    stack<int> s;
-    while (n > 0 || !s.empty())
-    {
-        while (n > 0)
-        {
-            cout << n << " ";
-            s.push(n);
-            n--;
-        }
-        if (!s.empty())
-        {
-            n = s.top();
-            s.pop();
-            n--;
-        }
-    }
-}
 int main()
 {
-    p(3);
+    // cout << "--- Iterative P(4) ---" << endl;
+    // P_iterative(4);
+    // cout << "\n--- Recursive P(4) (for comparison) ---" << endl;
+    // P_recursive(4);
+
+    // PrintRV(12345);
+    // cout << endl;
+    // printRV(12345);
+    // cout << endl;
+
+    // PrintV(12345);
+    // cout << endl;
+    // printV(12345);
+    // cout << endl;
+    // pprintV(12345);
+    // cout << endl;
+
+    P(4);
     cout << endl;
-    pp(3);
+    p(4);
     cout << endl;
-    system("pause");
+    getchar();
     return 0;
 }
