@@ -55,6 +55,7 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "text_encoding": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "queue": "cpp"
     }
 }

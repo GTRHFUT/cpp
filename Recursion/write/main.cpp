@@ -53,7 +53,7 @@ int main()
     cout << "集合{1, 2, 3, 4}中取2个元素的所有排列" << endl;
     int arr_4[2];
     bool used[4 + 1]{false};
-    arrange(arr_4, 1, 2, 2, 4, used);
+    arrange(arr_4, 2, 2, 4, used);
     cout << endl;
     cout << "-----------------------------------------------------------------------------------------" << endl;
     cout << "八皇后问题: " << endl;

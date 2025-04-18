@@ -19,7 +19,7 @@ const void print_arrange(int arr[], int k)
     }
 }
 
-void arrange(int arr[], int i, int num, int k, int n, bool used[])
+void arrange(int arr[], int num, int k, int n, bool used[])
 {
     if (num == 0)
     {
@@ -32,7 +32,7 @@ void arrange(int arr[], int i, int num, int k, int n, bool used[])
         {
             used[i] = true;
             arr[k - num] = i;
-            arrange(arr, i + 1, num - 1, k, n, used);
+            arrange(arr, num - 1, k, n, used);
             used[i] = false;
         }
     }
